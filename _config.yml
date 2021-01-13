@@ -43,6 +43,8 @@ exclude:
   - LICENCE
   - Dockerfile
   - "*.iml"
+  - "*.sh"
+  - docs
 
 defaults:
   - scope:
