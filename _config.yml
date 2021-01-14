@@ -2,23 +2,6 @@ title: Soupe UI Components
 url: "https://cheeryworks.org/soupe-ui-components"
 baseurl:
 
-# Default description in social shares for the jekyll-seo-tag gem
-description:
-
-# Author details for the jekyll-seo-tag gem
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
-
-# Social details for the jekyll-seo-tag gem
-social:
-  name: CheeryWorks
-  links:
-    - https://github.com/cheeryworks
-
-timezone: Etc/UTC
-
 collections:
   portfolios:
     output: true
@@ -76,10 +59,5 @@ defaults:
     values:
       layout: "default"
 
-# -----------
-# CloudCannon
-
-social_icons:
-
-languages: ["en", "zh"]
-exclude_from_localizations: ["javascript", "css", "_posts", "blog"]
+languages: [ "en", "zh" ]
+exclude_from_localizations: [ "javascript", "css", "_posts", "blog" ]
